@@ -5,7 +5,6 @@ async function startup(){
 
     const serverTimes = await RedisManager.getTimesForThisServer();
     for(const currentTime of serverTimes){
-        const len = (await RedisManager.getValuesForTime(currentTime)).length;
         setTimeoutForMessages(currentTime);
     }
 

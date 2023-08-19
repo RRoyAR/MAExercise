@@ -26,7 +26,7 @@ class RedisManager
 
     /**
      * 
-     * @returns All keys for this server
+     * @returns All keys for this server.
      */
     async allKeysForThisServer(){
         return await this._redis.keys(`${this.serverId}:*`);

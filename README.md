@@ -47,7 +47,9 @@ Description  | HTTP Method |   endpoint  | params |
 -------------|-------------|-------------|--------|
 echo message at the time provided   | GET         | /echoAtTime  |   ```{"time": "2023-08-20T16:02", "message": "Hello World!"}```     | 
 
+## Notes
 
+* Add validator to inputs 
 
 
 
